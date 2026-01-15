@@ -1,0 +1,19 @@
+InventoryUI (Control)
+    |- CanvasLayer 
+        |- InventoryGrid (GridContainer)
+            * Column 5
+
+ItemPickup (Area 2D)
+    |- Sprite2D
+    |- CollisionShape2D
+        *CircleShapw2D
+
+Main (Node2D)
+    |- Player (Node2D)
+    |- Inventory (Control)
+
+Player (Node2D)
+    * Node -> Groups -> Create = player
+    |- Sprite2D
+    |- CollisionShape2D
+        *CircleShapw2D
